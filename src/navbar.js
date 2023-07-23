@@ -57,22 +57,6 @@ const Navbar = () => {
                 <div className={`dot${showMenu ? ' active' : ''}`}></div>
                 <div className={`dot${showMenu ? ' active' : ''}`}></div>
               </div>
-              {showMenu && (
-                <div className="menu-dropdown">
-                  <div className="menu-item">
-                    <FontAwesomeIcon icon={faUsers} style={{ marginRight: '5px' }} />
-                    Members
-                  </div>
-                  <div className="menu-item">
-                    <FontAwesomeIcon icon={faShareAlt} style={{ marginRight: '5px' }} />
-                    Share Number
-                  </div>
-                  <div className="menu-item">
-                    <FontAwesomeIcon icon={faExclamationTriangle} style={{ marginRight: '5px' }} />
-                    Report
-                  </div>
-                </div>
-              )}
             </div>
               <span id="form_tx">From </span>
               <span id="from">{from}</span>
